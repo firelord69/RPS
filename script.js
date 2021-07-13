@@ -1,3 +1,5 @@
+
+
 let [computer_score,user_score]=[0,0];
 let result_ref = document.getElementById("result");
 let choices_object = {
@@ -50,4 +52,10 @@ function checker(input){
 
     document.getElementById("computer_score").innerHTML = computer_score;
     document.getElementById("user_score").innerHTML = user_score;
+
+    
+    
 }
+
+
+

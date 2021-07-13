@@ -1,9 +1,9 @@
-*,
-*:before,
-*:after{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 body{
     height: 100vh;
@@ -55,11 +55,13 @@ body{
     font-weight: 400;
     font-size: 15px;
 }
+
 .select-box .credit{
     text-align: center;
     margin-top: 20px;
     font-size: 18px;
     font-weight: 500;
+    left: 50%;
   }
   .select-box .credit a{
     color: #56baed;
@@ -83,3 +85,24 @@ body{
 span{
     font-weight: 600;
 }
+
+.result-box .btn{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+  }
+  .btn button{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 20px;
+    border: none;
+    background: #56baed;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  
